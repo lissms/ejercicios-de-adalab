@@ -1,0 +1,34 @@
+/*.dos {
+  display: inline-block;
+  background: brown;
+  border: solid black 3px;
+  width: 100px;
+  margin: 15px;
+  padding: 10px;
+}
+.tres {
+  display: inline-block;
+  background: brown;
+  border: solid black 3px;
+  width: 100px;
+  margin: 15px;
+}
+.prueba_overfow {
+  display: inline-block;
+  background: brown;
+  border: solid black 3px;
+  width: 100px;
+  margin: 15px;
+}
+*/
+.prueba {
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.img {
+  width: 100px;
+  height: 100px;
+}
