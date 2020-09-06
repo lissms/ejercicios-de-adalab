@@ -1,0 +1,51 @@
+:root {
+  --brand-color: green;
+  --brand-padding: 20px;
+  --brand-margin: 0;
+}
+
+body {
+  margin: var(--brand-margin);
+}
+
+header {
+  background-color: #eaeaea;
+  padding: var(--brand-padding);
+}
+
+main {
+  padding: var(--brand-padding);
+}
+
+p {
+  width: 50%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: grey;
+  margin: var(--brand-margin);
+}
+
+.subtitle {
+  color: grey;
+  margin: var(--brand-margin);
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: var(--brand-color);
+  text-decoration: none;
+}
+
+p a {
+  color: var(--brand-color);
+}
