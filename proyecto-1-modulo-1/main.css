@@ -1,3 +1,13 @@
 * {
   border: solid 3px red;
 }
+:root {
+  /* colores */
+  --brand-first-color: #099d8d;
+  --brand-second-color: aqua;
+  --text-header-color: white;
+  --text-main-color: #54585a;
+  /* tipografía */
+  --titles-font-family: Rubik-Medium;
+  --main-text-font-family: OpenSans;
+}
