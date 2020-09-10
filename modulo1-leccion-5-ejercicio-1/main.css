@@ -1,0 +1,13 @@
+* {
+  inline-size: border-box;
+}
+.list {
+  list-style: none;
+  background: black;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+.element {
+  margin: 0px 12px 0px 0px;
+}

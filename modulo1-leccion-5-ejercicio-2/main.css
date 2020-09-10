@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.divPadre {
+  border: solid 2px black;
+  background-color: cadetblue;
+}
+.cuadro {
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+}
+
+.div1 {
+  background-color: red;
+  position: relative;
+  right: 100px;
+  top: 50px;
+}
+.div2 {
+  background-color: green;
+  position: relative;
+  left: 150px;
+  top: -320px;
+}
+.div3 {
+  background-color: blue;
+  position: relative;
+  right: 180px;
+  top: -240px;
+}
