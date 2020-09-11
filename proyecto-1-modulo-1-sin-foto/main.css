@@ -15,11 +15,6 @@
   --main-text-font-family: OpenSans;
 }
 
-.container-menu {
-  width: 100%;
-  position: absolute;
-  z-index: 20;
-}
 /* nombre del grupo */
 .group-name {
   width: 100%;
@@ -73,40 +68,43 @@
   line-height: 2px;
 }
 
-/* foto y slogan __________________________________________________________________*/
-.group-photo {
-  height: 421px;
-  width: 100%;
-  overflow: hidden;
-}
-.img-group {
-  transform: translate(-38%, 20px);
-}
-
-.div-slogan {
-  background-color: #ffffff;
-  height: 80px;
-  margin: 0 15px;
-  position: relative;
-  top: -36px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.slogan {
-  color: black;
-  font-family: "Open Sans";
-  font-weight: 600;
-  font-size: 18px;
-}
-/* media cuaris */
-
 @media all and (min-width: 768px) {
   body {
-    background-color: red;
+    background-color: #fabada;
   }
   .container-menu {
-    display: inline;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    opacity: 0.95;
+    padding: 0 45px;
+    background-color: var(--brand-first-color);
+  }
+  .group-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .name {
+    margin: 0;
+    padding: 0;
+  }
+
+  .group-name,
+  .menu {
+    background-color: var(--brand-first-color);
+    opacity: 0.95;
+    height: 60px;
+  }
+  .ul-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .list {
+    padding: 0;
+    margin: 16px 0px 14px 19px;
   }
 }
